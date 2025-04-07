@@ -7,8 +7,8 @@ if __name__ == "__main__":
     events =  { 
     } 
 
-    ieee14 = GridEventManager(IEEE30_buses, events, stop_time=1000, name = "IEEE30", with_curves=True)   
-    ieee14.initialize()
-    ieee14.run()
+    ieee30 = GridEventManager(IEEE30_buses, events, stop_time=1000, name = "IEEE30", with_curves=True)   
+    ieee30.initialize()
+    ieee30.run()
 
      
