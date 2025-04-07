@@ -404,10 +404,6 @@
     <reference name="generator_U0Pu" origData="IIDM" origName="v_pu" type="DOUBLE"/>
     <reference name="generator_UPhase0" origData="IIDM" origName="angle_pu" type="DOUBLE"/>
   </set>
-  <set id="DisconnectGenerator">
-    <par type="DOUBLE" name="event_tEvent" value="50"/>
-    <par type="BOOL" name="event_stateEvent1" value="true"/>
-  </set>
   <set id="OmegaRef">
     <par type="INT" name="nbGen" value="6"/>
     <par type="DOUBLE" name="weight_gen_0" value="9281.25"/>
