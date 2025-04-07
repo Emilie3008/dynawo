@@ -42,6 +42,7 @@
     <reference type="DOUBLE" name="load_U0Pu" origData="IIDM" origName="v_pu"/>
     <reference type="DOUBLE" name="load_UPhase0" origData="IIDM" origName="angle_pu"/>
   </set>
+
   <set id="Generator1">
     <par type="INT" name="generator_ExcitationPu" value="1"/>
     <par type="BOOL" name="generator_UseApproximation" value="true"/>
@@ -144,7 +145,7 @@
     <reference name="generator_U0Pu" origData="IIDM" origName="v_pu" type="DOUBLE"/>
     <reference name="generator_UPhase0" origData="IIDM" origName="angle_pu" type="DOUBLE"/>
   </set>
-  <set id="Generator5">
+  <set id="Generator27">
     <par type="INT" name="generator_ExcitationPu" value="1"/>
     <par type="BOOL" name="generator_UseApproximation" value="true"/>
     <par type="DOUBLE" name="generator_md" value="0.215"/>
@@ -195,7 +196,7 @@
     <reference name="generator_U0Pu" origData="IIDM" origName="v_pu" type="DOUBLE"/>
     <reference name="generator_UPhase0" origData="IIDM" origName="angle_pu" type="DOUBLE"/>
   </set>
-  <set id="Generator8">
+  <set id="Generator23">
     <par type="INT" name="generator_ExcitationPu" value="1"/>
     <par type="BOOL" name="generator_UseApproximation" value="true"/>
     <par type="DOUBLE" name="generator_md" value="0.215"/>
@@ -246,7 +247,7 @@
     <reference name="generator_U0Pu" origData="IIDM" origName="v_pu" type="DOUBLE"/>
     <reference name="generator_UPhase0" origData="IIDM" origName="angle_pu" type="DOUBLE"/>
   </set>
-  <set id="Generator11">
+  <set id="Generator22">
     <par type="INT" name="generator_ExcitationPu" value="1"/>
     <par type="BOOL" name="generator_UseApproximation" value="true"/>
     <par type="DOUBLE" name="generator_md" value="0.215"/>

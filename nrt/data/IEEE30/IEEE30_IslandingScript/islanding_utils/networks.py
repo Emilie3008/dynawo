@@ -118,7 +118,6 @@ IEEE30_buses={
         "VL12": "T-4-12-1"
     },
     "VL5":{
-       "B5-G1" : "connected",
        "B5-L1": "connected",
        "VL2": "L-2-5-1",
        "VL7":"L-5-7-1"
@@ -141,7 +140,6 @@ IEEE30_buses={
     },
 
     "VL8":{
-        "B8-G1": "connected", 
         "B8-L1": "connected",
         'VL6':"L-6-8-1",
         "VL28":"L-8-28-1"
@@ -154,6 +152,7 @@ IEEE30_buses={
     },
 
     "VL10":{
+    
         "B10-SH 1" : "connected",
         "B10-L1": "connected",
         "VL6": "T-6-10-1",
@@ -165,7 +164,6 @@ IEEE30_buses={
     },
 
     "VL11":{
-        "B11-G1":"connected",
         "VL9":"L-9-11-1"
     },
 
@@ -235,12 +233,14 @@ IEEE30_buses={
     },
 
     "VL22":{
+        "B22-G1":"connected",
         "VL10":"L-10-22-1",
         "VL21":"L-21-22-1",
         "VL24":"L-22-24-1"
     },
 
     "VL23":{
+        "B23-G1":"connected",
         "B23-L1":"connected",
         "VL15":"L-15-23-1",
         "VL24":"L-23-24-1"
@@ -266,6 +266,7 @@ IEEE30_buses={
     },
 
     "VL27":{
+        "B27-G1":"connected",
         "VL25" : "L-25-27-1",
         "VL28" : "T-28-27-1", 
         "VL29" : "L-27-29-1",

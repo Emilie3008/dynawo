@@ -26,17 +26,25 @@
   <curve model="NETWORK" variable="B8_U_value"/>
   <curve model="NETWORK" variable="B8_phi_value"/>
   <curve model="NETWORK" variable="B9_U_value"/>
+  <curve model="NETWORK" variable="B9_phi_value"/>
   <curve model="NETWORK" variable="B10_U_value"/>
+  <curve model="NETWORK" variable="B10_phi_value"/>
   <curve model="NETWORK" variable="B11_U_value"/>
   <curve model="NETWORK" variable="B11_phi_value"/>
   <curve model="NETWORK" variable="B12_U_value"/>
+  <curve model="NETWORK" variable="B12_phi_value"/>
   <curve model="NETWORK" variable="B13_U_value"/>
   <curve model="NETWORK" variable="B13_phi_value"/>
   <curve model="NETWORK" variable="B14_U_value"/>
+  <curve model="NETWORK" variable="B14_phi_value"/>
   <curve model="NETWORK" variable="B15_U_value"/>
+  <curve model="NETWORK" variable="B15_phi_value"/>
   <curve model="NETWORK" variable="B16_U_value"/>
+  <curve model="NETWORK" variable="B16_phi_value"/>
   <curve model="NETWORK" variable="B17_U_value"/>
+  <curve model="NETWORK" variable="B17_phi_value"/>
   <curve model="NETWORK" variable="B18_U_value"/>
+  <curve model="NETWORK" variable="B18_phi_value"/>
   <curve model="NETWORK" variable="B19_U_value"/>
   <curve model="NETWORK" variable="B20_U_value"/>
   <curve model="NETWORK" variable="B21_U_value"/>
@@ -49,24 +57,37 @@
   <curve model="NETWORK" variable="B28_U_value"/>
   <curve model="NETWORK" variable="B29_U_value"/>
   <curve model="NETWORK" variable="B30_U_value"/>
+  <curve model="NETWORK" variable="B30_phi_value"/>
+
   <curve model="B1-G1" variable="generator_PGenPu"/>
   <curve model="B1-G1" variable="generator_QGenPu"/>
   <curve model="B1-G1" variable="generator_UPu"/>
+  <curve model="B1-G1" variable="generator_omegaRefPu"/>
+
   <curve model="B2-G1" variable="generator_PGenPu"/>
   <curve model="B2-G1" variable="generator_QGenPu"/>
   <curve model="B2-G1" variable="generator_UPu"/>
-  <curve model="B5-G1" variable="generator_PGenPu"/>
-  <curve model="B5-G1" variable="generator_QGenPu"/>
-  <curve model="B5-G1" variable="generator_UPu"/>
-  <curve model="B8-G1" variable="generator_PGenPu"/>
-  <curve model="B8-G1" variable="generator_QGenPu"/>
-  <curve model="B8-G1" variable="generator_UPu"/>
-  <curve model="B11-G1" variable="generator_PGenPu"/>
-  <curve model="B11-G1" variable="generator_QGenPu"/>
-  <curve model="B11-G1" variable="generator_UPu"/>
+  <curve model="B2-G1" variable="generator_omegaRefPu"/>
+
+  <curve model="B22-G1" variable="generator_PGenPu"/>
+  <curve model="B22-G1" variable="generator_QGenPu"/>
+  <curve model="B22-G1" variable="generator_UPu"/>
+  <curve model="B22-G1" variable="generator_omegaRefPu"/>
+
+  <curve model="B23-G1" variable="generator_PGenPu"/>
+  <curve model="B23-G1" variable="generator_QGenPu"/>
+  <curve model="B23-G1" variable="generator_UPu"/>
+  <curve model="B23-G1" variable="generator_omegaRefPu"/>
+
+  <curve model="B27-G1" variable="generator_PGenPu"/>
+  <curve model="B27-G1" variable="generator_QGenPu"/>
+  <curve model="B27-G1" variable="generator_UPu"/>
+  <curve model="B27-G1" variable="generator_omegaRefPu"/>
+
   <curve model="B13-G1" variable="generator_PGenPu"/>
   <curve model="B13-G1" variable="generator_QGenPu"/>
   <curve model="B13-G1" variable="generator_UPu"/>
+  <curve model="B13-G1" variable="generator_omegaRefPu"/>
 
   <curve model="B2-L1" variable="load_PPu"/>
   <curve model="B2-L1" variable="load_QPu"/>
@@ -122,13 +143,13 @@
   <curve model="_LOAD___24_EC" variable="load_PPu"/>
   <curve model="_LOAD___24_EC" variable="load_QPu"/>
 
-  <curve model="_LOAD___26_EC" variable="load_PPu"/>
-  <curve model="_LOAD___26_EC" variable="load_QPu"/>
+  <curve model="B28-L1" variable="load_PPu"/>
+  <curve model="B28-L1" variable="load_QPu"/>
 
-  <curve model="_LOAD___29_EC" variable="load_PPu"/>
-  <curve model="_LOAD___29_EC" variable="load_QPu"/>
+  <curve model="B29-L1" variable="load_PPu"/>
+  <curve model="B29-L1" variable="load_QPu"/>
 
-  <curve model="_LOAD___30_EC" variable="load_PPu"/>
-  <curve model="_LOAD___30_EC" variable="load_QPu"/>
+  <curve model="B30-L1" variable="load_PPu"/>
+  <curve model="B30-L1" variable="load_QPu"/>
 
 </curvesInput>

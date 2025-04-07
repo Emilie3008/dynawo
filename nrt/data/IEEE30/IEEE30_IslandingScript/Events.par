@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <parametersSet xmlns="http://www.rte-france.com/dynawo">
 
-</parametersSet>
+<set id="DisconnectLine0"><par type="DOUBLE" name="event_tEvent" value="100"/><par type="BOOL" name="event_disconnectOrigin" value="true"/><par type="BOOL" name="event_disconnectExtremity" value="true"/></set><set id="DisconnectLine1"><par type="DOUBLE" name="event_tEvent" value="100"/><par type="BOOL" name="event_disconnectOrigin" value="true"/><par type="BOOL" name="event_disconnectExtremity" value="true"/></set><set id="DisconnectLine2"><par type="DOUBLE" name="event_tEvent" value="100"/><par type="BOOL" name="event_disconnectOrigin" value="true"/><par type="BOOL" name="event_disconnectExtremity" value="true"/></set></parametersSet>
