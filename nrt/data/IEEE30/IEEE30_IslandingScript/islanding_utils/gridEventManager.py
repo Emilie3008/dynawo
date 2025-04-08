@@ -173,10 +173,10 @@ class GridEventManager:
             print(f"\nError for Island {island_id} :\n{r.stderr}\n")
             return -1
         
-        if self.with_curves :
-            self._process_island_results(island_id)
-            print(r.stderr)
-  
+    
+        self._process_island_results(island_id)
+        print(r.stderr)
+
            
 
     def _process_island_results(self, island_id):
@@ -186,6 +186,9 @@ class GridEventManager:
             f'{island_path}\\curves\\curves.csv',
             f'outputs\\curves\\island{island_id}.csv'
         )
+        
+        if not self.with_curves:
+            return 1
         
         csv_to_js(
             f'outputs\\curves\\island{island_id}.csv',
